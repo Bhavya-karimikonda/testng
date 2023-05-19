@@ -32,7 +32,7 @@ public class testngMain{
 		}
 	
 		@Test
-		public void gotoPage() {
+		public void gotoPagetoFail() {
 			  driver.get("https://www.bstackdemo.com");
 		      AssertJUnit.assertTrue(driver.getTitle().matches("BStackDemo1")); //to fail
 		}
