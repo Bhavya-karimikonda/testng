@@ -30,6 +30,12 @@ public class testngMain{
 			  driver.get("https://www.bstackdemo.com");
 		      AssertJUnit.assertTrue(driver.getTitle().matches("StackDemo"));
 		}
+	
+		@Test
+		public void gotoPage() {
+			  driver.get("https://www.bstackdemo.com");
+		      AssertJUnit.assertTrue(driver.getTitle().matches("BStackDemo1")); //to fail
+		}
 		
 		@Test
 		public void addToCart() {
@@ -39,6 +45,7 @@ public class testngMain{
 			 
 		}
 		
+	
 		
 		@AfterMethod
 		public void cleanUp() {
