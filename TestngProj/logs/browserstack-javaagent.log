@@ -1,0 +1,6 @@
+18:54:00.821 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:54:00.836 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+18:55:15.221 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/7ki3mmjhovqduagqik6io6gqgafwtil1vhwz3lxs to view build report, insights, and many more debugging information all at one place!
+
+18:55:16.766 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/743791357c65c35d822dbdbea6a771c3625c7f11
+18:55:16.767 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
